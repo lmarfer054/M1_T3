@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2. Sistemas de tres ecuaciones con tres incógnitas | MT1 - Tema 2.3: Álgebra: Sistemas de ecuaciones </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="IEDA" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-24"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">MT1 - Tema 2.3: Álgebra: Sistemas de ecuaciones</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Álgebra: Sistemas de ecuaciones</a></li>
+   <li><a href="1_dos_ecuaciones_y_dos_incgnitas.html" class="daddy">1. Dos ecuaciones y dos incógnitas</a>
+   <ul class="other-section">
+      <li><a href="11_ecuaciones_con_dos_incgnitas.html" class="no-ch">1.1. Ecuaciones con dos incógnitas</a></li>
+      <li><a href="12_resolucin_grfica_de_un_sistema_de_dos_ecuaciones_con_dos_incgnitas.html" class="no-ch">1.2. Resolución gráfica de un sistema de dos ecuaciones con dos incógnitas</a></li>
+      <li><a href="13_mtodos_de_resolucin_analtica.html" class="no-ch">1.3. Métodos de resolución analítica</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="2_sistemas_de_tres_ecuaciones_con_tres_incgnitas.html" class="active no-ch">2. Sistemas de tres ecuaciones con tres incógnitas</a></li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="13_mtodos_de_resolucin_analtica.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">2. Sistemas de tres ecuaciones con tres incógnitas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id97">
+<div class="iDevice emphasis0">
+<div id="ta97_1" class="block iDevice_content">
+<p style="text-align: justify;">Hay multitud de situaciones y problemas cuya solución se obtiene resolviendo sistemas con muchas ecuaciones e incógnitas. Si ya tiene mérito resolver problemas usando dos ecuaciones, imagínate con tres, cuatro,... resulta casi un ejercicio de <strong>"malabarismo"</strong>. Gauss dio una respuesta a este problema resolviendo sistemas con el mismo número de ecuaciones que incógnitas.</p>
+<p style="text-align: center;"><img src="juggle-5544687_640.jpg" alt="malabares" title="malabares" width="399" height="267" /></p>
+<p style="text-align: center;"><span style="font-size: 8pt;">Imagen de ihor_konst en <a href="https://pixabay.com/es/photos/malabares-bolas-bolas-de-malabares-5544687/" target="_blank" title="malabares" rel="noopener">Pixabay</a>. Licencia <a href="https://pixabay.com/es/service/license/" title="Pixabay">Pixabay</a><br /></span></p>
+<p style="text-align: justify;">El método de resolución de Gauss lleva su nombre debido a que él lo describió en un artículo en el que detallaba todos los cálculos que hizo para determinar la órbita del asteroide Pallas. Los parámetros de la órbita tenían que determinarse mediante observaciones del asteroide durante seis años (1803-1809), lo que dio lugar a un <em>sistema de</em> <i>seis ecuaciones con seis incógnitas</i>.</p>
+<p style="text-align: justify;">Gauss demostró cómo resolver estas ecuaciones reemplazándolas sistemáticamente por un nuevo sistema en el que sólo la primera ecuación tenía seis incógnitas, la segunda tenía cinco, la tercera tenía sólo cuatro, y así sucesivamente, hasta que la última ecuación tenía una sola incógnita. Este método también se denomina <strong>método de reducción en cascada o de triangulación</strong>.</p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper preknowledgeIdevice em_iDevice em_iDevice_importante" id="id173">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Importante</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta173_130_7" class="block iDevice_content">
+<p style="text-align: justify;">El <b>método de Gauss </b>consiste en obtener sistemas equivalentes al que queremos resolver, cada vez más sencillos, hasta obtener uno muy simple con forma triangular. El sistema que buscamos debe tener una única incógnita en su última ecuación, dos en la penúltima,..., y todas las incógnitas en la primera ecuación.</p>
+<p style="text-align: justify;">Las soluciones se obtienen desde la última ecuación a la primera, es decir, resolviendo, en primer lugar, la última, sustituyendo el valor obtenido en la penúltima y resolviendo la ecuación resultante, y así sucesivamente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id101">
+<div class="iDevice emphasis0">
+<div id="ta101_1" class="block iDevice_content">
+<p style="text-align: justify;">En el siguiente vídeo se explica de manera sencilla, clara, y mediante un ejemplo, el método de Gauss. En este caso, se va a resolver un sistema de tres ecuaciones con tres incógnitas.</p>
+<p style="text-align: center;"> <iframe width="560" height="315" src="https://www.youtube.com/embed/RBJceTKociQ" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><span style="font-size: 8pt;">Vídeo de lasmatematicas.es alojado en <a href="https://www.youtube.com/watch?v=RBJceTKociQ" target="_blank" title="gauss" rel="noopener">Youtube</a></span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id55">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Comprueba lo aprendido</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<form name="multi-choice-form-55_2" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion55_2" class="block question iDevice_content">
+<p>Resolver, por el método de Gauss, el siguiente sistema de ecuaciones:</p>
+<table align="center" border="0" style="border: 0pt solid #ffffff;">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img alt="\left\{\begin{matrix} 2x+5y &amp; = &amp; 16\\  x+3y-2z &amp; = &amp; -2\\  x+z &amp; = &amp; 4 \end{matrix}\right." src="eXe_LaTeX_math_2.54.gif" style="width: 136px; height: 54px;" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_5" class="sr-av"><a href="#answer-55_5">Opción 1</a></label><input type="radio" name="option55_2" id="i55_5" class="exe-radio-option exe-radio-option-0-3-55_2-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_5"><a name="answer-55_5"></a>
+<div id="taans55_5" class="block iDevice_content">
+<p>x = 1, y = 2, z = 1</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1807" class="sr-av"><a href="#answer-55_1807">Opción 2</a></label><input type="radio" name="option55_2" id="i55_1807" class="exe-radio-option exe-radio-option-1-3-55_2-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1807"><a name="answer-55_1807"></a>
+<div id="taans55_1807" class="block iDevice_content">
+<p>x = -2, y = 4, z = 6</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1810" class="sr-av"><a href="#answer-55_1810">Opción 3</a></label><input type="radio" name="option55_2" id="i55_1810" class="exe-radio-option exe-radio-option-2-3-55_2-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1810"><a name="answer-55_1810"></a>
+<div id="taans55_1810" class="block iDevice_content">
+<p>x = 0, y = 1, z = -1</p>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_feedbacks js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<div id="sa0b55_2" class="feedback js-hidden"><a name="sa0b55_2"></a>
+<div id="taf55_5" class=" iDevice_content">
+<strong>¡Incorrecto!
+</strong>
+
+</div>
+</div>
+<div id="sa1b55_2" class="feedback js-hidden"><a name="sa1b55_2"></a>
+<div id="taf55_1807" class=" iDevice_content">
+<strong>¡Correcto!
+</strong>
+
+</div>
+</div>
+<div id="sa2b55_2" class="feedback js-hidden"><a name="sa2b55_2"></a>
+<div id="taf55_1810" class=" iDevice_content">
+<strong>¡Incorrecto!
+</strong>
+
+</div>
+</div>
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-55_5">Incorrecto</a><span> (<a href="#sa0b55_2">Retroalimentación</a>)</span></li>
+<li><a href="#answer-55_1807">Opción correcta</a><span> (<a href="#sa1b55_2">Retroalimentación</a>)</span></li>
+<li><a href="#answer-55_1810">Incorrecto</a><span> (<a href="#sa2b55_2">Retroalimentación</a>)</span></li>
+</ol>
+</div>
+</div>
+<div class="question">
+<form name="multi-choice-form-55_1813" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion55_1813" class="block question iDevice_content">
+<p>Resuelve, por el método de Gauss, el siguiente sistema de ecuaciones:</p>
+<table align="center" border="0" style="border: 0pt solid #ffffff;">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img alt="\left\{\begin{matrix} x+y &amp; = &amp; 1\\  y+z &amp; = &amp; -2\\  x+z &amp; = &amp; 3 \end{matrix}\right." src="eXe_LaTeX_math_2.55.gif" style="width: 96px; height: 54px;" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1816" class="sr-av"><a href="#answer-55_1816">Opción 1</a></label><input type="radio" name="option55_1813" id="i55_1816" class="exe-radio-option exe-radio-option-0-3-55_1813-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1816"><a name="answer-55_1816"></a>
+<div id="taans55_1816" class="block iDevice_content">
+<p>x = 0, y = 1, z = 6</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1820" class="sr-av"><a href="#answer-55_1820">Opción 2</a></label><input type="radio" name="option55_1813" id="i55_1820" class="exe-radio-option exe-radio-option-1-3-55_1813-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1820"><a name="answer-55_1820"></a>
+<div id="taans55_1820" class="block iDevice_content">
+<p>x = 0, y = 0, z = 1</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1823" class="sr-av"><a href="#answer-55_1823">Opción 3</a></label><input type="radio" name="option55_1813" id="i55_1823" class="exe-radio-option exe-radio-option-2-3-55_1813-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1823"><a name="answer-55_1823"></a>
+<div id="taans55_1823" class="block iDevice_content">
+<p>x = 3, y = -2, z = 0</p>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_feedbacks js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<div id="sa0b55_1813" class="feedback js-hidden"><a name="sa0b55_1813"></a>
+<div id="taf55_1816" class=" iDevice_content">
+<strong>¡Incorrecto!
+</strong>
+
+</div>
+</div>
+<div id="sa1b55_1813" class="feedback js-hidden"><a name="sa1b55_1813"></a>
+<div id="taf55_1820" class=" iDevice_content">
+<strong>¡Incorrecto!
+</strong>
+
+</div>
+</div>
+<div id="sa2b55_1813" class="feedback js-hidden"><a name="sa2b55_1813"></a>
+<div id="taf55_1823" class=" iDevice_content">
+<strong>¡Correcto!
+</strong>
+
+</div>
+</div>
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-55_1816">Incorrecto</a><span> (<a href="#sa0b55_1813">Retroalimentación</a>)</span></li>
+<li><a href="#answer-55_1820">Incorrecto</a><span> (<a href="#sa1b55_1813">Retroalimentación</a>)</span></li>
+<li><a href="#answer-55_1823">Opción correcta</a><span> (<a href="#sa2b55_1813">Retroalimentación</a>)</span></li>
+</ol>
+</div>
+</div>
+<div class="question">
+<form name="multi-choice-form-55_1826" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion55_1826" class="block question iDevice_content">
+<p>Resuelve, por el método de Gauss, el siguiente sistema de ecuaciones:</p>
+<table align="center" border="0" style="border: 0pt solid #ffffff;">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img alt="\left\{\begin{matrix} 5x+2y+3z &amp; = &amp; 4\\  2x+2y+z &amp; = &amp; 3\\  x-2y+2z &amp; = &amp; -3 \end{matrix}\right." src="eXe_LaTeX_math_6.15.gif" style="width: 152px; height: 59px;" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1829" class="sr-av"><a href="#answer-55_1829">Opción 1</a></label><input type="radio" name="option55_1826" id="i55_1829" class="exe-radio-option exe-radio-option-0-3-55_1826-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1829"><a name="answer-55_1829"></a>
+<div id="taans55_1829" class="block iDevice_content">
+<p>x = 1, y = 1, z = -1</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1833" class="sr-av"><a href="#answer-55_1833">Opción 2</a></label><input type="radio" name="option55_1826" id="i55_1833" class="exe-radio-option exe-radio-option-1-3-55_1826-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1833"><a name="answer-55_1833"></a>
+<div id="taans55_1833" class="block iDevice_content">
+<p>x = 0, y = 1, z = 0</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i55_1836" class="sr-av"><a href="#answer-55_1836">Opción 3</a></label><input type="radio" name="option55_1826" id="i55_1836" class="exe-radio-option exe-radio-option-2-3-55_1826-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-55_1836"><a name="answer-55_1836"></a>
+<div id="taans55_1836" class="block iDevice_content">
+<p>x = 2, y = 3, z = 0</p>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_feedbacks js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<div id="sa0b55_1826" class="feedback js-hidden"><a name="sa0b55_1826"></a>
+<div id="taf55_1829" class=" iDevice_content">
+<strong>¡Correcto!
+</strong>
+
+</div>
+</div>
+<div id="sa1b55_1826" class="feedback js-hidden"><a name="sa1b55_1826"></a>
+<div id="taf55_1833" class=" iDevice_content">
+<strong>¡Incorrecto!</strong>
+
+</div>
+</div>
+<div id="sa2b55_1826" class="feedback js-hidden"><a name="sa2b55_1826"></a>
+<div id="taf55_1836" class=" iDevice_content">
+<strong>¡Incorrecto!</strong>
+
+</div>
+</div>
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-55_1829">Opción correcta</a><span> (<a href="#sa0b55_1826">Retroalimentación</a>)</span></li>
+<li><a href="#answer-55_1833">Incorrecto</a><span> (<a href="#sa1b55_1826">Retroalimentación</a>)</span></li>
+<li><a href="#answer-55_1836">Incorrecto</a><span> (<a href="#sa2b55_1826">Retroalimentación</a>)</span></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper EjercicioresueltofpdIdevice em_iDevice em_iDevice_ejercicioresueltofpd" id="id56">
+<div class="iDevice emphasis_ejercicioresueltofpd" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio Resuelto</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta56_148" class="block story iDevice_content">
+
+</div>
+<div id="taquesQuestion0b56" class="block iDevice_content">
+<p>Resolver el siguiente sistema por el método de Gauss:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_1.27.gif" style="width: 120px; height: 59px;" width="120" height="59" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<form name="feedback-form-quesFeedback0b56" action="#" onsubmit="return false" class="feedback-form">
+<div class="block iDevice_buttons feedback-button js-required">
+<p><script type="text/javascript">var feedbackquesFeedback0b56text = "Mostrar retroalimentación";</script><input type="button" name="toggle-feedback-quesFeedback0b56" value="Mostrar retroalimentación" class="feedbackbutton feedback-toggler" /></p>
+</div>
+<div id="feedback-quesFeedback0b56" class="feedback js-feedback js-hidden">
+<h3 class="js-sr-av">Retroalimentación</h3>
+<p><strong> Paso 1 </strong></p>
+<p style="text-align: justify;">Dado que el coeficiente de la incógnita x en la segunda ecuación es 1, podemos cambiar el orden de las ecuaciones primera y segunda. Al hacer esto, obtenemos un sistema equivalente al anterior:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_2.40.gif" style="width: 120px; height: 59px;" width="120" height="59" /></td>
+</tr>
+</tbody>
+</table>
+<p align="left"><strong> Paso 2 </strong></p>
+<p style="text-align: justify;">Para obtener el sistema escalonado que buscamos hemos de sustituir la segunda ecuación por otra con dos incógnitas (<strong>y</strong> y <strong>z</strong>). Para ello, hemos de aplicar la transformación consistente en multiplicar la primera ecuación por un número y sumar el resultado a la segunda, de tal forma que en la ecuación resultante solo queden coeficientes para las incógnitas <strong>y</strong> y <strong>z</strong> (y que sean distintos de 0).</p>
+<p style="text-align: justify;">En nuestro caso, bastará con multiplicar la primera ecuación por -3 (que coincide con el coeficiente que acompaña a la incógnita <strong>x</strong> en la segunda ecuación con el signo contrario) y sumarla con la segunda como puede apreciarse a continuación:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_3.17.gif" style="width: 144px; height: 66px;" width="144" height="66" /></td>
+</tr>
+</tbody>
+</table>
+<p align="left" style="text-align: justify;">De esta forma, el sistema resultante, equivalente al primero, es el siguiente:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_8.11.gif" style="width: 112px; height: 59px;" width="112" height="59" /></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Paso 3 </strong></p>
+<p align="left" style="text-align: justify;">A continuación, vamos a aplicar el mismo procedimiento a la primera y tercera ecuaciones, de manera que sustituyamos la tercera por otra con dos incógnitas (<strong>y</strong> y <strong>z</strong>). Para ello, hemos de aplicar la transformación consistente en multiplicar la primera ecuación por un número y sumar el resultado a la tercera, de tal forma que en la ecuación resultante solo queden coeficientes para las incógnitas <strong>y</strong> y <strong>z </strong>(y que sean distintos de 0).</p>
+<p align="left" style="text-align: justify;">En nuestro caso, bastará con multiplicar la primera ecuación por -2 (que coincide con el coeficiente que acompaña a la incógnita x en la segunda ecuación con el signo contrario) y sumarla con la tercera como puede apreciarse a continuación:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_9.5.gif" style="width: 160px; height: 67px;" width="160" height="67" /></td>
+</tr>
+</tbody>
+</table>
+<p>El sistema resultante, equivalente al primero, es el siguiente.</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_10.6.gif" style="width: 112px; height: 59px;" width="112" height="59" /></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Paso 4 </strong></p>
+<p style="text-align: justify;"><span style="font-size: 1.05em;">Finalmente, volvemos a aplicar el procedimiento a la segunda y tercera ecuaciones, de manera que sustituyamos la tercera por otra con una sola incógnita (<strong>z</strong>). Para ello, hemos de aplicar la transformación consistente en multiplicar la segunda y tercera ecuaciones por dos números (que, en nuestro caso, coincidirán con los coeficientes de la otra) de manera que, al sumarlas, obtengamos una ecuación que tenga únicamente coeficiente para la incógnita <strong>z</strong>.</span><br /><strong></strong></p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_11.3.gif" style="width: 312px; height: 66px;" width="312" height="66" /></td>
+</tr>
+</tbody>
+</table>
+<p>obteniendo, finalmente, el sistema de ecuaciones escalonado deseado:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_12.2.gif" style="width: 112px; height: 52px;" width="112" height="52" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">La solución es sencilla de hallar si comenzamos a resolver desde la tercera ecuación y vamos "escalando" hasta la primera. De esta forma, la solución del sistema es:</p>
+<table style="border: 0pt solid #ffffff;" border="0" align="center">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="eXe_LaTeX_math_13.4.gif" style="width: 160px; height: 27px;" width="160" height="27" /></td>
+</tr>
+</tbody>
+</table></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ClozefpdIdevice em_iDevice em_iDevice_autoevaluacionfpd" id="id77">
+<div class="iDevice emphasis_autoevaluacionfpd" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta77_138" class="block instructions iDevice_content">
+<p><span>Rellena los huecos, para completar la resolución mediante el método de Gauss del siguiente sistema:</span></p>
+</div>
+<div class="activity" id="activity-77_139"><form name="cloze-form-77_139" action="#" class="activity-form cloze-activity-form"><div id="cloze77_139"><input type="hidden" name="clozeFlag77_139.strictMarking" id="clozeFlag77_139.strictMarking" value="false"/>
+<input type="hidden" name="clozeFlag77_139.checkCaps" id="clozeFlag77_139.checkCaps" value="false"/>
+<input type="hidden" name="clozeFlag77_139.instantMarking" id="clozeFlag77_139.instantMarking" value="false"/>
+<table border="5" style="width: 100%; border-style: solid;" cellpadding="10" class="exe-table">
+<tbody>
+<tr>
+<td style="width: 20%; border-style: outset;">2x - 2y + 6z = - 8</td>
+<td style="width: 20%; background-color: #c1f7d0;">Mantenemos la 1ª fila</td>
+<td style="width: 20%;">2x - 2y + 6z = - 8</td>
+<td style="width: 20%; background-color: #c1f7d0;">Mantenemos la 1ª fila</td>
+<td style="width: 20%;">2x - 2y + 6z = - 8</td>
+</tr>
+<tr>
+<td style="width: 20%; border-style: outset;">2x + 2y + 2z = 4</td>
+<td style="width: 20%; background-color: #c1f7d0;">Colocamos, 2ª - 1ª fila</td>
+<td style="width: 20%;"><label for="clozeBlank77_139.0" class="sr-av">Rellenar huecos (1):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.0" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.0">JXUwMDZj
+</span> y - <label for="clozeBlank77_139.1" class="sr-av">Rellenar huecos (2):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.1" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.1">JXUwMDZj
+</span> z = 12</td>
+<td style="width: 20%; background-color: #c1f7d0;">Colocamos, 2ª fila : 4</td>
+<td style="width: 20%;">y - z = <label for="clozeBlank77_139.2" class="sr-av">Rellenar huecos (3):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.2" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.2">JXUwMDZi
+</span></td>
+</tr>
+<tr>
+<td style="width: 20%; border-style: outset; border-color: #f51b1b;">2x + 4y - 2z = 12</td>
+<td style="width: 20%; background-color: #c1f7d0;">Colocamos, 3ª - 1ª fila</td>
+<td style="width: 20%;"><label for="clozeBlank77_139.3" class="sr-av">Rellenar huecos (4):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.3" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.3">JXUwMDZl
+</span> y - 8z = <label for="clozeBlank77_139.4" class="sr-av">Rellenar huecos (5):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.4" style="width:2ch" /><span style="display:none" id="clozeAnswer77_139.4">JXUwMDZhJXUwMDAy
+</span></td>
+<td style="width: 20%; background-color: #c1f7d0;">Colocamos, 3ª fila : 2</td>
+<td style="width: 20%;"><label for="clozeBlank77_139.5" class="sr-av">Rellenar huecos (6):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.5" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.5">JXUwMDZi
+</span> y - 4z = <label for="clozeBlank77_139.6" class="sr-av">Rellenar huecos (7):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.6" style="width:2ch" /><span style="display:none" id="clozeAnswer77_139.6">JXUwMDY5JXUwMDAx
+</span></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table border="0" style="width: 100%;" cellpadding="10" class="exe-table">
+<tbody>
+<tr>
+<td style="width: 25%; background-color: #c1f7d0;">Mantenemos la 1ª fila</td>
+<td style="width: 25%;">2x - 2y + 6z = - 8</td>
+<td style="width: 25%; background-color: #c1f7d0;">Calculamos x</td>
+<td style="width: 25%;">x = (-8 + 2y - 6z) : 2 = <label for="clozeBlank77_139.7" class="sr-av">Rellenar huecos (8):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.7" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.7">JXUwMDY5
+</span></td>
+</tr>
+<tr>
+<td style="width: 25%; background-color: #c1f7d0;">Mantenemos la 2ª fila</td>
+<td style="width: 25%;">y - z = 3</td>
+<td style="width: 25%; background-color: #c1f7d0;">Calculamos y</td>
+<td style="width: 25%;">y = 3 + z = <label for="clozeBlank77_139.8" class="sr-av">Rellenar huecos (9):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.8" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.8">JXUwMDZh
+</span></td>
+</tr>
+<tr>
+<td style="width: 25%; background-color: #c1f7d0;">Colocamos, 3ª - 3 · 2ª fila</td>
+<td style="width: 25%;">- z = <label for="clozeBlank77_139.9" class="sr-av">Rellenar huecos (10):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.9" style="width:1ch" /><span style="display:none" id="clozeAnswer77_139.9">JXUwMDY5
+</span></td>
+<td style="width: 25%; background-color: #c1f7d0;">Calculamos z</td>
+<td style="width: 25%;">z = <label for="clozeBlank77_139.10" class="sr-av">Rellenar huecos (11):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank77_139.10" style="width:2ch" /><span style="display:none" id="clozeAnswer77_139.10">JXUwMDc1JXUwMDFj
+</span></td>
+</tr>
+</tbody>
+</table>
+<p></p><div class="block iDevice_buttons"><p><input class="button" type="submit" name="submit77_139" value="Enviar"  id="submit77_139" />
+<input type="button" name="restart77_139" value="Reiniciar" style="display:none" id="restart77_139" onclick="$exe.cloze.restart('77_139')" />
+ <input type="button" name="77_139showAnswersButton" value="Mostrar las respuestas" style="display:none" id="showAnswersButton77_139" onclick="$exe.cloze.fillInputs('77_139')" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span></p></div><div id="clozeScore77_139"></div></div></form></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="13_mtodos_de_resolucin_analtica.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_adultos_js.js"></script></body></html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mul32aye-au99v24nz">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.3. Métodos de resolución analítica | Álgebra</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 1º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas I">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/form/form.js"></script><link rel="stylesheet" href="../idevices/form/form.css">
+<script src="../libs/exe_effects/exe_effects.js"> </script>
+<link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mul32aye-au99v24nz" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Álgebra: Sistemas de ecuaciones</a>
+</li>
+<li class="current-page-parent"> <a href="../html/1-dos-ecuaciones-y-dos-incognitas.html" class="daddy">1. Dos ecuaciones y dos incógnitas</a>
+<ul class="other-section">
+<li> <a href="../html/11-ecuaciones-con-dos-incognitas.html" class="no-ch">1.1. Ecuaciones con dos incógnitas</a>
+</li>
+<li> <a href="../html/12-resolucion-grafica-de-un-sistema-de-dos-ecuacio.html" class="no-ch">1.2. Resolución gráfica de un sistema de dos ecuaciones con dos incógnitas</a>
+</li>
+<li class="active"> <a href="../html/13-metodos-de-resolucion-analitica.html" class="active no-ch">1.3. Métodos de resolución analítica</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-sistemas-de-tres-ecuaciones-con-tres-incognitas.html" class="no-ch">2. Sistemas de tres ecuaciones con tres incógnitas</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mul32aye-au99v24nz" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Álgebra</p>
+<p class="package-subtitle">Sistemas de ecuaciones</p></div>
+<div class="page-header"><h1 class="page-title">1.3. Métodos de resolución analítica</h1></div>
+</header><div id="page-content-page-mul32aye-au99v24nz" class="page-content">
+<article id="block-mul32ayj-kee4x39r1" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_definicion.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Sustitución, igualación y reducción.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mul32ayj-pmtnr5mye" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mul32ayj-pmtnr5mye&quot;}">
+<div class="exe-text-template">
+    <p style="text-align: justify;">Tal y como hemos visto en el apartado anterior, un sistema se puede resolver gráficamente, pero, en muchas ocasiones, este método presenta algunos inconvenientes. </p>
+<p style="text-align: justify;">Por ejemplo, en el caso de que no dispongamos de una herramienta informática preparada para representar las gráficas, estaremos obligados a construir una tabla con los puntos para, posteriormente, realizar la representación de las rectas a mano. También nos puede ocurrir que, una vez representadas las rectas, el punto de corte esté muy alejado del origen de coordenadas o que sus coordenadas no sean números enteros.</p>
+<p style="text-align: justify;">Estas situaciones suponen, normalmente, un obstáculo para encontrar la solución exacta y justifican, de manera clara, la necesidad de que existan métodos analíticos de resolución de sistemas.</p>
+<ul style="text-align: justify;"></ul>
+<ul style="text-align: justify;"></ul>
+<ul style="text-align: justify;"></ul>
+<p style="text-align: justify;">Existen tres métodos clásicos.</p>
+<p style="font-size: 1.15rem; color: #333; font-weight: 500; margin-bottom: 20px;">Haz clic en las pestañas para ver la explicación y un ejemplo resuelto de cada método paso a paso:</p>
+<!-- CONTENEDOR FX DE PAGINACIÓN -->
+<div class="exe-fx exe-tabs" style="border: 1px solid #007932; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); font-family: system-ui, -apple-system, sans-serif;"><!-- PESTAÑA 1: SUSTITUCIÓN -->
+<h2>Método de Sustitución</h2>
+<div style="padding: 20px; background-color: #ffffff;">
+<h3 style="color: #007932; margin-top: 0;">¿En qué consiste?</h3>
+<p>Consiste en <strong>despejar</strong> una de las letras en una ecuación (la que parezca más fácil) y <strong>sustituir</strong> su valor en la otra ecuación. Así, pasamos de tener dos letras a tener una sola.</p>
+<p style="font-weight: bold; color: #007932; margin-top: 20px;">📝 Ejemplo resuelto paso a paso:</p>
+\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 5 \\ 2x &amp; - &amp; 3y &amp; = &amp; -5 \end{array} \right. \]
+<p>🟢 <strong>Paso 1:</strong> Despejamos la letra \(x\) en la primera ecuación por ser la más sencilla:</p>
+\[x = 5 - y\]
+<p>🟢 <strong>Paso 2:</strong> Cambiamos la \(x\) por ese valor en la segunda ecuación (usando paréntesis):</p>
+\[2 \cdot (5 - y) - 3y = -5\]
+<p>🟢 <strong>Paso 3:</strong> Resolvemos la ecuación quitando el paréntesis y agrupando las letras:</p>
+\[ \begin{aligned} 10 - 2y - 3y &amp;= -5 \\ 10 - 5y &amp;= -5 \\ -5y &amp;= -15 \implies y = \dfrac{-15}{-5} = 3 \end{aligned} \]
+<p>🟢 <strong>Paso 4:</strong> Con el valor de \(y = 3\), volvemos al Paso 1 para averiguar la \(x\):</p>
+\[x = 5 - 3 \implies x = 2\] <!-- Caja del resultado -->
+<div style="margin: 15px auto 0 auto; max-width: 350px; background-color: #fafdf3; border: 2px solid #007932; padding: 12px; text-align: center; border-radius: 6px;">La solución es \(\pmb{x = 2}\) e \(\pmb{y = 3}\).</div>
+</div>
+<!-- PESTAÑA 2: IGUALACIÓN -->
+<h2>Método de Igualación</h2>
+<div style="padding: 20px; background-color: #ffffff;">
+<h3 style="color: #007932; margin-top: 0;">¿En qué consiste?</h3>
+<p>Consiste en <strong>despejar la misma letra</strong> en las dos ecuaciones del sistema. Como esa letra vale lo mismo en ambos sitios, podemos <strong>igualar</strong> las dos expresiones resultantes para resolver la operación.</p>
+<p style="font-weight: bold; color: #007932; margin-top: 20px;">📝 Ejemplo resuelto paso a paso:</p>
+\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 5 \\ 2x &amp; - &amp; 3y &amp; = &amp; -5 \end{array} \right. \]
+<p>🟢 <strong>Paso 1:</strong> Despejamos la misma letra (por ejemplo, la \(x\)) en las dos ecuaciones:</p>
+\[ \left\{ \begin{array}{rcr} x &amp; = &amp; 5 - y \\ x &amp; = &amp; \dfrac{-5 + 3y}{2} \end{array} \right. \]
+<p>🟢 <strong>Paso 2:</strong> Como \(x\) es igual a \(x\), igualamos los dos lados derechos:</p>
+\[5 - y = \dfrac{-5 + 3y}{2}\]
+<p>🟢 <strong>Paso 3:</strong> Quitamos el denominador pasando el 2 multiplicando al otro miembro en bloque y resolvemos:</p>
+\[ \begin{aligned} 2 \cdot (5 - y) &amp;= -5 + 3y \\ 10 - 2y &amp;= -5 + 3y \\ 10 + 5 &amp;= 3y + 2y \\ 15 &amp;= 5y \implies y = \dfrac{15}{5} = 3 \end{aligned} \]
+<p>🟢 <strong>Paso 4:</strong> Sustituimos \(y = 3\) en cualquiera de las expresiones del Paso 1 para hallar la \(x\):</p>
+\[x = 5 - 3 \implies x = 2\] <!-- Caja del resultado -->
+<div style="margin: 15px auto 0 auto; max-width: 350px; background-color: #fafdf3; border: 2px solid #007932; padding: 12px; text-align: center; border-radius: 6px;">La solución es \(\pmb{x = 2}\) e \(\pmb{y = 3}\).</div>
+</div>
+<!-- PESTAÑA 3: REDUCCIÓN -->
+<h2>Método de Reducción</h2>
+<div style="padding: 20px; background-color: #ffffff;">
+<h3 style="color: #007932; margin-top: 0;">¿En qué consiste?</h3>
+<p>Consiste en preparar las ecuaciones multiplicándolas por números convenientes para que, al <strong>sumar las dos filas en vertical</strong>, una de las dos incógnitas desaparezca por completo (se cancele).</p>
+<p style="font-weight: bold; color: #007932; margin-top: 20px;">📝 Ejemplo resuelto paso a paso:</p>
+\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 5 \\ 2x &amp; - &amp; 3y &amp; = &amp; -5 \end{array} \right. \]
+<p>🟢 <strong>Paso 1:</strong> Queremos eliminar la letra \(y\). Como abajo tenemos un \(-3y\), multiplicamos toda la primera fila por <strong>3</strong> para que arriba aparezca un \(+3y\):</p>
+\[ \left\{ \begin{array}{rrcr} 3x &amp; + &amp; 3y &amp; = &amp; 15 \\ 2x &amp; - &amp; 3y &amp; = &amp; -5 \end{array} \right. \]
+<p>🟢 <strong>Paso 2:</strong> Sumamos las dos ecuaciones en vertical. Observa que las \(y\) desaparecen de forma limpia:</p>
+<div style="background-color: #fafdf3; padding: 10px; border-radius: 6px; max-width: 250px; margin: 10px auto; font-family: monospace; font-size: 1.15rem; text-align: right; border-left: 4px solid #007932; line-height: 1.4;">3x + 3y = 15<br />+ 2x - 3y = -5<br /><hr style="border: 0; border-top: 2px solid #333; margin: 4px 0;" />5x      = 10</div>
+<p>🟢 <strong>Paso 3:</strong> Despejamos el valor de la incógnita restante:</p>
+\[5x = 10 \implies x = \dfrac{10}{5} = 2\]
+<p>🟢 <strong>Paso 4:</strong> Sustituimos \(x = 2\) en la ecuación original que queramos para calcular la \(y\):</p>
+\[2 + y = 5 \implies y = 5 - 2 \implies y = 3\] <!-- Caja del resultado -->
+<div style="margin: 15px auto 0 auto; max-width: 350px; background-color: #fafdf3; border: 2px solid #007932; padding: 12px; text-align: center; border-radius: 6px;">La solución es \(\pmb{x = 2}\) e \(\pmb{y = 3}\).</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mulf921r-srgmip74c" class="box caja-morada boton-morado">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_completa.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicios</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790610486687-0u3wushy3" class="idevice_node form" data-idevice-path="../idevices/form/" data-idevice-type="form" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790610486687-0u3wushy3&quot;,&quot;evaluation&quot;:false,&quot;evaluationID&quot;:&quot;6a28705f-9b42-4c19-bf09-db42c6fd8996&quot;,&quot;repeatActivity&quot;:true,&quot;isScorm&quot;:0,&quot;textButtonScorm&quot;:&quot;Guardar la puntuación&quot;,&quot;weighted&quot;:100,&quot;msgs&quot;:{&quot;msgScoreScorm&quot;:&quot;La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.&quot;,&quot;msgYouScore&quot;:&quot;Tu puntuación es&quot;,&quot;msgEndGameScore&quot;:&quot;Comience la partida antes de guardar la puntuación.&quot;,&quot;msgScore&quot;:&quot;Puntuación&quot;,&quot;msgWeight&quot;:&quot;Peso&quot;,&quot;msgYouLastScore&quot;:&quot;La última puntuación guardada es&quot;,&quot;msgOnlySaveScore&quot;:&quot;¡Solo puede guardar la puntuación una vez!&quot;,&quot;msgOnlySave&quot;:&quot;Solo puede guardar una vez&quot;,&quot;msgOnlySaveAuto&quot;:&quot;Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.&quot;,&quot;msgSaveAuto&quot;:&quot;Su puntuación se guardará automáticamente después de cada pregunta.&quot;,&quot;msgSeveralScore&quot;:&quot;Puede guardar la puntuación tantas veces como quiera&quot;,&quot;msgPlaySeveralTimes&quot;:&quot;Puede realizar esta actividad cuantas veces quiera&quot;,&quot;msgActityComply&quot;:&quot;Ya ha realizado esta actividad.&quot;,&quot;msgUncompletedActivity&quot;:&quot;Actividad no completada&quot;,&quot;msgSuccessfulActivity&quot;:&quot;Actividad superada. Puntuación: %s&quot;,&quot;msgUnsuccessfulActivity&quot;:&quot;Actividad no superada. Puntuación: %s&quot;,&quot;msgTypeGame&quot;:&quot;Formulario&quot;,&quot;msgStartGame&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTime&quot;:&quot;Tiempo por pregunta&quot;,&quot;msgSaveScore&quot;:&quot;Guardar la puntuación&quot;,&quot;msgResult&quot;:&quot;Resultado&quot;,&quot;msgCheck&quot;:&quot;Comprobar&quot;,&quot;msgReset&quot;:&quot;Reiniciar&quot;,&quot;msgShowAnswers&quot;:&quot;Mostrar respuestas&quot;,&quot;msgTestResultPass&quot;:&quot;¡Felicidades! Has pasado la prueba&quot;,&quot;msgTestResultNotPass&quot;:&quot;Lo siento. Has fallado la prueba&quot;,&quot;msgTrueFalseHelp&quot;:&quot;Di si la afirmación es verdadera o falsa&quot;,&quot;msgDropdownHelp&quot;:&quot;Elige la respuesta correcta entre las opciones propuestas&quot;,&quot;msgFillHelp&quot;:&quot;Rellena los espacios en blanco con la palabra apropiada&quot;,&quot;msgSingleSelectionHelp&quot;:&quot;Opción múltiple con solo una respuesta correcta&quot;,&quot;msgMultipleSelectionHelp&quot;:&quot;Opción múltiple con varias respuestas correctas&quot;,&quot;msgPlayStart&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTrue&quot;:&quot;Verdadero&quot;,&quot;msgFalse&quot;:&quot;Falso&quot;,&quot;msgNext&quot;:&quot;Siguiente&quot;,&quot;msgPrevious&quot;:&quot;Anterior&quot;,&quot;msgSuggestion&quot;:&quot;Sugerencia&quot;,&quot;msgOk&quot;:&quot;Correcto&quot;,&quot;msgKO&quot;:&quot;Incorrecto&quot;,&quot;msgHide&quot;:&quot;Ocultar&quot;},&quot;id&quot;:&quot;idevice-1790610486687-0u3wushy3&quot;,&quot;questionsRandom&quot;:false,&quot;percentageQuestions&quot;:&quot;100&quot;,&quot;time&quot;:&quot;0&quot;,&quot;eXeFormInstructions&quot;:&quot;&lt;p&gt;A las dos situaciones relacionadas con el fútbol que vimos en el punto anterior, le vamos a añadir una nueva pista. Plantea, en cada uno de los casos, un sistema de dos ecuaciones con dos incógnitas, resuélvelos por el método que prefieras y completa los espacios en blanco que nos dan la solución.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&quot;,&quot;questionsData&quot;:[{&quot;id&quot;:&quot;1790610509561-Y260W&quot;,&quot;activityType&quot;:&quot;fill&quot;,&quot;baseText&quot;:&quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;b&gt;1.&lt;/b&gt; Sabemos que&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=\&quot;text-align: justify;\&quot;&gt;\n&lt;p&gt;\\(x\\): &lt;em&gt;Número de goles que ha marcado Messi&lt;/em&gt; e \\(y\\): &lt;em&gt;Número de goles que ha marcado Ibrahimovic&lt;/em&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=\&quot;text-align: justify;\&quot;&gt;\n&lt;p&gt;que, entre los dos, han marcado \\(40\\) goles.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=\&quot;text-align: justify;\&quot;&gt;\n&lt;p&gt;La nueva pista que nos dan es: \&quot;Messi ha anotado 10 goles más que su compañero Ibrahimovic\&quot;.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;table align=\&quot;left\&quot; border=\&quot;0\&quot; style=\&quot;height: 46px; margin-left: auto; margin-right: auto; width: 45.5843%;\&quot;&gt;\n&lt;tbody&gt;\n&lt;tr style=\&quot;height: 23px;\&quot;&gt;\n&lt;td align=\&quot;left\&quot; style=\&quot;height: 23px; width: 77.8793%; text-align: justify;\&quot;&gt;\\(x\\): Número de goles marcados por Messi&lt;/td&gt;\n&lt;td style=\&quot;height: 23px; width: 22.1207%;\&quot;&gt;&lt;u&gt;25&lt;/u&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr style=\&quot;height: 23px;\&quot;&gt;\n&lt;td align=\&quot;left\&quot; style=\&quot;height: 23px; width: 77.8793%;\&quot;&gt;\\(y\\): Número de goles marcados por Ibrahimovic&lt;/td&gt;\n&lt;td style=\&quot;height: 23px; width: 22.1207%;\&quot;&gt;&lt;u&gt;15&lt;/u&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&quot;,&quot;feedbackRight&quot;:&quot;&quot;,&quot;feedbackWrong&quot;:&quot;&quot;,&quot;suggestion&quot;:&quot;&quot;,&quot;wrongAnswersValue&quot;:&quot;&quot;,&quot;selectionType&quot;:&quot;single&quot;,&quot;answers&quot;:[],&quot;answer&quot;:&quot;1&quot;,&quot;capitalization&quot;:true,&quot;strict&quot;:true,&quot;order&quot;:0,&quot;customScore&quot;:1,&quot;time&quot;:0},{&quot;id&quot;:&quot;1790610584249-HD31T&quot;,&quot;activityType&quot;:&quot;fill&quot;,&quot;baseText&quot;:&quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;b&gt;2.&lt;/b&gt; La ecuación que relaciona el número de goles marcados por ambos equipos es: \\(x = y + 6\\) , siendo&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=\&quot;text-align: justify;\&quot;&gt;\\(x\\):&lt;em&gt; nº goles marcados por el Real Madrid&lt;/em&gt; e \\(y\\): &lt;em&gt;nº goles marcados por el F.C. Barcelona&lt;/em&gt;.&lt;/li&gt;\n&lt;li style=\&quot;text-align: justify;\&quot;&gt;En este caso, la nueva pista que nos dan es: \&quot;Entre los dos equipos han marcado \\(172\\) goles.\&quot;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;table align=\&quot;left\&quot; border=\&quot;0\&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\&quot;left\&quot;&gt;\\(x\\): Número de goles marcados por el Real Madrid&lt;/td&gt;\n&lt;td align=\&quot;center\&quot;&gt;&lt;u&gt;89&lt;/u&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\&quot;left\&quot;&gt;\\(y\\): Número de goles marcados por el F.C Barcelona&lt;/td&gt;\n&lt;td align=\&quot;center\&quot;&gt;&lt;u&gt;83&lt;/u&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;div align=\&quot;center\&quot; style=\&quot;text-align: justify;\&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;p align=\&quot;center\&quot; style=\&quot;text-align: justify;\&quot;&gt; &lt;/p&gt;\n&lt;p style=\&quot;text-align: justify;\&quot;&gt; &lt;/p&gt;\n&lt;p style=\&quot;text-align: justify;\&quot;&gt; &lt;/p&gt;&quot;,&quot;feedbackRight&quot;:&quot;&quot;,&quot;feedbackWrong&quot;:&quot;&quot;,&quot;suggestion&quot;:&quot;&quot;,&quot;wrongAnswersValue&quot;:&quot;&quot;,&quot;selectionType&quot;:&quot;single&quot;,&quot;answers&quot;:[],&quot;answer&quot;:&quot;1&quot;,&quot;capitalization&quot;:true,&quot;strict&quot;:true,&quot;order&quot;:0,&quot;customScore&quot;:1,&quot;time&quot;:0}],&quot;passRate&quot;:5,&quot;addBtnAnswers&quot;:true,&quot;eXeIdeviceTextAfter&quot;:&quot;&lt;!-- EJERCICIO 1 --&gt;\n&lt;ol&gt;\n&lt;li style=\&quot;font-size: 1.15rem; color: #333333; font-weight: 500;\&quot;&gt;&lt;span style=\&quot;font-size: 12pt;\&quot;&gt;La nueva pista, traducida al lenguaje matemático, quedaría: \\(x = y + 10\\).&lt;/span&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p style=\&quot;line-height: 1.5; color: #444;\&quot;&gt;A continuación, planteamos el sistema de ecuaciones y lo resolvemos. En este caso, se ha optado por resolverlo mediante el &lt;strong&gt;método de sustitución&lt;/strong&gt;. Como la incógnita \\(x\\) ya aparece despejada en la segunda ecuación, podemos sustituirla directamente en la primera ecuación. El resto del ejercicio es una sucesión de operaciones y resolución de ecuaciones sencillas hasta obtener la solución.&lt;/p&gt;\n&lt;!-- PASOS SISTEMA 1 ALINEADOS --&gt;\n&lt;p&gt;\\[ \\left\\{ \\begin{array}{rrcr} x &amp;amp; + &amp;amp; y &amp;amp; = &amp;amp; 40 \\\\ x &amp;amp; = &amp;amp; y &amp;amp; + &amp;amp; 10 \\end{array} \\right. \\implies \\left\\{ \\begin{array}{rrcr} (y + 10) &amp;amp; + &amp;amp; y &amp;amp; = &amp;amp; 40 \\\\ x &amp;amp; = &amp;amp; y &amp;amp; + &amp;amp; 10 \\end{array} \\right. \\implies \\left\\{ \\begin{array}{rrcr} 2y &amp;amp; = &amp;amp; 30 \\\\ x &amp;amp; = &amp;amp; y &amp;amp; + &amp;amp; 10 \\end{array} \\right. \\implies \\left\\{ \\begin{array}{rrcr} y &amp;amp; = &amp;amp; 15 \\\\ x &amp;amp; = &amp;amp; y &amp;amp; + &amp;amp; 10 \\end{array} \\right. \\implies \\left\\{ \\begin{array}{rrcr} y &amp;amp; = &amp;amp; 15 \\\\ x &amp;amp; = &amp;amp; 25 \\end{array} \\right. \\]&lt;/p&gt;\n&lt;!-- Resultado 1 en caja interior morada --&gt;\n&lt;div style=\&quot;margin: 15px auto 35px auto; max-width: 350px; background-color: #fbf3fb; border: 2px solid #7a297b; padding: 12px; text-align: center; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);\&quot;&gt;La solución es \\(\\pmb{x = 25}\\) e \\(\\pmb{y = 15}\\).&lt;/div&gt;\n&lt;hr /&gt;&lt;hr style=\&quot;border: 0; border-top: 1px solid #e0e0e0; margin: 30px 0;\&quot; /&gt;&lt;!-- EJERCICIO 2 --&gt;\n&lt;ol start=\&quot;2\&quot;&gt;\n&lt;li style=\&quot;font-size: 1.15rem; color: #333333; font-weight: 500;\&quot;&gt;&lt;span style=\&quot;font-size: 12pt;\&quot;&gt;La nueva pista, traducida al lenguaje matemático, quedaría: \\(x + y = 172\\).&lt;/span&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p style=\&quot;line-height: 1.5; color: #444;\&quot;&gt;A continuación, planteamos el sistema de ecuaciones y lo resolvemos. En este caso, se ha optado por resolverlo mediante el &lt;strong&gt;método de igualación&lt;/strong&gt;. Para ello, como la incógnita \\(x\\) ya aparece despejada en la primera ecuación, basta con despejarla en la segunda e igualar ambas expresiones. El resto del ejercicio es una sucesión de operaciones y resolución de ecuaciones sencillas hasta obtener la solución.&lt;/p&gt;\n&lt;!-- PASOS SISTEMA 2 ALINEADOS --&gt;\n&lt;p&gt;\\[ \\left\\{ \\begin{array}{rrcr} x &amp;amp; = &amp;amp; y &amp;amp; + &amp;amp; 6 \\\\ x &amp;amp; + &amp;amp; y &amp;amp; = &amp;amp; 172 \\end{array} \\right. \\implies \\left\\{ \\begin{array}{rrcr} x &amp;amp; = &amp;amp; y &amp;amp; + &amp;amp; 6 \\\\ x &amp;amp; = &amp;amp; 172 &amp;amp; - &amp;amp; y \\end{array} \\right. \\]&lt;/p&gt;\n&lt;p style=\&quot;text-align: center; margin: 15px 0; color: #444;\&quot;&gt;Igualamos ambas expresiones y despejamos las incógnitas paso a paso:&lt;/p&gt;\n&lt;p&gt;\\[ \\begin{aligned} y + 6 &amp;amp;= 172 - y \\\\ 2y &amp;amp;= 166 \\implies y = 83 \\\\ x &amp;amp;= 83 + 6 \\implies x = 89 \\end{aligned} \\] \\[ \\left\\{ \\begin{array}{rrcr} x &amp;amp; = &amp;amp; 89 \\\\ y &amp;amp; = &amp;amp; 83 \\end{array} \\right. \\]&lt;/p&gt;\n&lt;!-- Resultado 2 en caja interior morada --&gt;\n&lt;div style=\&quot;margin: 15px auto 10px auto; max-width: 350px; background-color: #fbf3fb; border: 2px solid #7a297b; padding: 12px; text-align: center; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);\&quot;&gt;La solución es \\(\\pmb{x = 89}\\) e \\(\\pmb{y = 83}\\).&lt;/div&gt;&quot;,&quot;showSlider&quot;:false}" data-idevice-template="form.html">
+<div class="exe-form-container">
+  <div class="game-evaluation-ids js-hidden" data-id="idevice-1790610486687-0u3wushy3" data-evaluationb="false" data-evaluationid="6a28705f-9b42-4c19-bf09-db42c6fd8996"></div>
+            <div id="frmMainContainer-idevice-1790610486687-0u3wushy3" class="form-IDevice" data-id="idevice-1790610486687-0u3wushy3">
+                <div class="form-Data js-hidden">{}</div>
+                <div class="form-instructions"><p>A las dos situaciones relacionadas con el fútbol que vimos en el punto anterior, le vamos a añadir una nueva pista. Plantea, en cada uno de los casos, un sistema de dos ecuaciones con dos incógnitas, resuélvelos por el método que prefieras y completa los espacios en blanco que nos dan la solución.</p>
+<hr />
+<p><br /></p></div>
+                <div class="FRMP-GameScoreBoard" style="display:none;">
+                    <div>
+                        <strong><span class="sr-av">Tiempo por pregunta:</span></strong>
+                        <span id="frmPTime-idevice-1790610486687-0u3wushy3">00:00</span>
+                    </div>
+                </div>
+                <div class="FRMP-StartGame" id="frmStartGameDiv-idevice-1790610486687-0u3wushy3" style="display:none;">
+                      <button  id="frmStartGame-idevice-1790610486687-0u3wushy3" type="button" class="btn btn-primary">Pulsa aquí para empezar</button>
+                </div>
+                <div class="form-body" id="frmBody-idevice-1790610486687-0u3wushy3" style="display:block;">
+                    <div class="FRMP-Questions">
+                        <div id="form-questions-idevice-1790610486687-0u3wushy3" > </div>
+                        <div id="frmCover-idevice-1790610486687-0u3wushy3" class="FRMP-Cover"> </div>
+                    </div>
+                    <div id="resultsContainer-idevice-1790610486687-0u3wushy3" class="form-results-container inline">
+                        <div id="form-score-idevice-1790610486687-0u3wushy3" class="score-text">Puntuación.</div>
+                        <div id="form-result-test-idevice-1790610486687-0u3wushy3" class="score-text phrase-score"></div>
+                    </div>
+                    <div class="form-buttons-container inline">
+                        <input id="form-button-check-idevice-1790610486687-0u3wushy3" class="btn btn-primary" type="button" value="Comprobar"
+                            data-id="idevice-1790610486687-0u3wushy3" data-pass-rate="" />
+                        <input id="form-button-reset-idevice-1790610486687-0u3wushy3" type="button" value="Reiniciar"
+                            data-id="idevice-1790610486687-0u3wushy3" class="btn btn-primary"  style="display:none" />
+                        <input id="form-button-show-answers-idevice-1790610486687-0u3wushy3" class="btn btn-primary" type="button" value="Mostrar respuestas"
+                            data-id="idevice-1790610486687-0u3wushy3" style="display: " />
+
+                    </div>
+                </div>
+                <div class="Games-BottonContainer d-flex align-items-center justify-content-end mx-auto p-0 w-100"></div>
+                <div class="form-instructions"><!-- EJERCICIO 1 -->
+<ol>
+<li style="font-size: 1.15rem; color: #333333; font-weight: 500;"><span style="font-size: 12pt;">La nueva pista, traducida al lenguaje matemático, quedaría: \(x = y + 10\).</span></li>
+</ol>
+<p style="line-height: 1.5; color: #444;">A continuación, planteamos el sistema de ecuaciones y lo resolvemos. En este caso, se ha optado por resolverlo mediante el <strong>método de sustitución</strong>. Como la incógnita \(x\) ya aparece despejada en la segunda ecuación, podemos sustituirla directamente en la primera ecuación. El resto del ejercicio es una sucesión de operaciones y resolución de ecuaciones sencillas hasta obtener la solución.</p>
+<!-- PASOS SISTEMA 1 ALINEADOS -->
+<p>\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 40 \\ x &amp; = &amp; y &amp; + &amp; 10 \end{array} \right. \implies \left\{ \begin{array}{rrcr} (y + 10) &amp; + &amp; y &amp; = &amp; 40 \\ x &amp; = &amp; y &amp; + &amp; 10 \end{array} \right. \implies \left\{ \begin{array}{rrcr} 2y &amp; = &amp; 30 \\ x &amp; = &amp; y &amp; + &amp; 10 \end{array} \right. \implies \left\{ \begin{array}{rrcr} y &amp; = &amp; 15 \\ x &amp; = &amp; y &amp; + &amp; 10 \end{array} \right. \implies \left\{ \begin{array}{rrcr} y &amp; = &amp; 15 \\ x &amp; = &amp; 25 \end{array} \right. \]</p>
+<!-- Resultado 1 en caja interior morada -->
+<div style="margin: 15px auto 35px auto; max-width: 350px; background-color: #fbf3fb; border: 2px solid #7a297b; padding: 12px; text-align: center; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">La solución es \(\pmb{x = 25}\) e \(\pmb{y = 15}\).</div>
+<hr /><hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 30px 0;" /><!-- EJERCICIO 2 -->
+<ol start="2">
+<li style="font-size: 1.15rem; color: #333333; font-weight: 500;"><span style="font-size: 12pt;">La nueva pista, traducida al lenguaje matemático, quedaría: \(x + y = 172\).</span></li>
+</ol>
+<p style="line-height: 1.5; color: #444;">A continuación, planteamos el sistema de ecuaciones y lo resolvemos. En este caso, se ha optado por resolverlo mediante el <strong>método de igualación</strong>. Para ello, como la incógnita \(x\) ya aparece despejada en la primera ecuación, basta con despejarla en la segunda e igualar ambas expresiones. El resto del ejercicio es una sucesión de operaciones y resolución de ecuaciones sencillas hasta obtener la solución.</p>
+<!-- PASOS SISTEMA 2 ALINEADOS -->
+<p>\[ \left\{ \begin{array}{rrcr} x &amp; = &amp; y &amp; + &amp; 6 \\ x &amp; + &amp; y &amp; = &amp; 172 \end{array} \right. \implies \left\{ \begin{array}{rrcr} x &amp; = &amp; y &amp; + &amp; 6 \\ x &amp; = &amp; 172 &amp; - &amp; y \end{array} \right. \]</p>
+<p style="text-align: center; margin: 15px 0; color: #444;">Igualamos ambas expresiones y despejamos las incógnitas paso a paso:</p>
+<p>\[ \begin{aligned} y + 6 &amp;= 172 - y \\ 2y &amp;= 166 \implies y = 83 \\ x &amp;= 83 + 6 \implies x = 89 \end{aligned} \] \[ \left\{ \begin{array}{rrcr} x &amp; = &amp; 89 \\ y &amp; = &amp; 83 \end{array} \right. \]</p>
+<!-- Resultado 2 en caja interior morada -->
+<div style="margin: 15px auto 10px auto; max-width: 350px; background-color: #fbf3fb; border: 2px solid #7a297b; padding: 12px; text-align: center; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">La solución es \(\pmb{x = 89}\) e \(\pmb{y = 83}\).</div></div>
+            </div>
+            <div class="questionsMedia" style="display:none"></div>
+            
+</div>
+</div>
+</div>
+</article><article id="block-mulg50ud-qxphkj81s" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790611978115-f2k8ebfvq" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790611978115-f2k8ebfvq&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p style="line-height: 1.5; color: #444444; text-align: center;"><img src="../content/resources/ESTADIO-LL.jpg" width="50%" alt="" /></p>
+<p style="line-height: 1.5; color: #444444; text-align: justify;">A un partido benéfico celebrado en el <strong>estadio Municipal de La Línea de la Concepción</strong>, han asistido <strong>9000 espectadores</strong>. Se han puesto a la venta únicamente dos tipos de entradas, a un precio de 15 € para los adultos y entradas infantiles a 6 €. La recaudación total ha sido de <strong>126000 €</strong>. ¿Cuántas entradas de cada tipo se han vendido?</p>
+<p style="margin-top: 20px; color: #444;"><br /></p>
+<!-- Caja interior azul para destacar la solución definitiva -->
+<p style="font-size: 1.15rem; color: #333; font-weight: 500; margin-bottom: 25px;">🔹Intenta resolver mentalmente o en un papel cada fase del problema  y haz clic en las tarjetas para comprobar si vas por buen camino:</p>
+<!-- CONTENEDOR DE TARJETAS (PARTE 1) -->
+<div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; font-family: system-ui, -apple-system, sans-serif; margin-bottom: 20px;"><!-- TARJETA 1: IDENTIFICAR VARIABLES -->
+<div onclick="this.classList.toggle('girada')" style="perspective: 1000px; width: 320px; height: 250px; cursor: pointer;">
+<div class="tarjeta-interna" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px;"><!-- Cara Delantera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #edfcfc; border: 2px solid #000dff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-size: 2rem; margin-bottom: 5px;">🤔</span> <span style="font-weight: bold; color: #000dff; font-size: 1.1rem; margin-bottom: 8px;">Paso 1: ¿Cuáles son las incógnitas?</span>
+<p style="margin: 0; font-size: 0.95rem; color: #444; line-height: 1.4;">Antes de escribir ninguna operación, ¿qué letras asignamos a los datos desconocidos del partido?</p>
+</div>
+<!-- Cara Trasera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #ffffff; border: 2px solid #000dff; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-weight: bold; color: #000dff; font-size: 1.05rem; margin-bottom: 5px;">¡Identificación correcta!</span>
+<p style="margin: 0 0 8px 0; font-size: 0.9rem; color: #555; text-align: left; line-height: 1.4;">Definimos las dos letras que necesitamos encontrar de forma separada:</p>
+<ul style="text-align: left; margin: 0; padding-left: 20px; font-size: 0.9rem; color: #333;">
+<li><strong>\(x\):</strong> Número de entradas de adultos.</li>
+<li><strong>\(y\):</strong> Número de entradas infantiles.</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- TARJETA 2: EL SISTEMA -->
+<div onclick="this.classList.toggle('girada')" style="perspective: 1000px; width: 320px; height: 250px; cursor: pointer;">
+<div class="tarjeta-interna" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px;"><!-- Cara Delantera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #edfcfc; border: 2px solid #000dff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-size: 2rem; margin-bottom: 5px;">📝</span> <span style="font-weight: bold; color: #000dff; font-size: 1.1rem; margin-bottom: 8px;">Paso 2: ¿Cómo queda el sistema?</span>
+<p style="margin: 0; font-size: 0.95rem; color: #444; line-height: 1.4;">Sabiendo que asistieron 9000 personas en total y se recaudaron 126000 €, ¿cómo unes los datos?</p>
+</div>
+<!-- Cara Trasera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #ffffff; border: 2px solid #000dff; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; box-sizing: border-box;"><span style="font-weight: bold; color: #000dff; font-size: 1.05rem; margin-bottom: 2px;">¡Planteamiento del Sistema!</span>
+<p style="margin: 0 0 2px 0; font-size: 0.8rem; color: #555; line-height: 1.3;">Una fila cuenta las personas totales y la otra fila cuenta el dinero ganado:</p>
+\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 9000 \\ 15x &amp; + &amp; 6y &amp; = &amp; 126000 \end{array} \right. \]</div>
+</div>
+</div>
+<!-- TARJETA 3: RESOLUCIÓN Y SOLUCIÓN -->
+<div onclick="this.classList.toggle('girada')" style="perspective: 1000px; width: 320px; height: 250px; cursor: pointer;">
+<div class="tarjeta-interna" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px;"><!-- Cara Delantera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #edfcfc; border: 2px solid #000dff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-size: 2rem; margin-bottom: 5px;">✔️</span> <span style="font-weight: bold; color: #000dff; font-size: 1.1rem; margin-bottom: 8px;">Paso 3: ¿Cuál es el resultado final?</span>
+<p style="margin: 0; font-size: 0.95rem; color: #444; line-height: 1.4;">Multiplicando la primera fila por -15 para eliminar las \(x\) por reducción... ¿qué resultados exactos obtienes?</p>
+</div>
+<!-- Cara Trasera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #ffffff; border: 2px solid #000dff; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-weight: bold; color: #000dff; font-size: 1.05rem; margin-bottom: 5px;">¡Solución final alcanzada!</span>
+<p style="margin: 0 0 5px 0; font-size: 0.85rem; color: #555; line-height: 1.3;">Al resolver la resta en vertical obtenemos \(-9y = -9000\), lo que nos da los valores definitivos:</p>
+<span style="font-size: 1.15rem; font-weight: bold; color: #000dff;"> \[x = 8000 \quad \text{y} \quad y = 1000\] </span>
+<p style="margin: 0; font-size: 0.8rem; color: #444;">Significa que se vendieron <strong>8000 de adultos</strong> y <strong>1000 infantiles</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- ESTILOS ANIMACIÓN -->
+<style>
+    .girada .tarjeta-interna {
+        transform: rotateY(180deg);
+    }
+</style><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p style="margin-top: 20px; color: #444;">Si llamamos \(x\): <em>Nº de entradas de adultos vendidas</em>, y \(y\): <em>Nº de entradas infantiles vendidas</em>, obtenemos el siguiente sistema de ecuaciones:</p>
+<p>\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 9000 \\ 15x &amp; + &amp; 6y &amp; = &amp; 126000 \end{array} \right. \]</p>
+<p style="line-height: 1.5; color: #444; margin-top: 20px;">Si en el sistema multiplicamos los dos miembros de la primera ecuación por \(-15\) tendremos el mismo coeficiente de \(\pmb{x}\) en ambas ecuaciones aunque con signos contrarios, esto es, \(-15\) y \(15\). Si sumamos las dos ecuaciones miembro a miembro veremos como la incógnita \(\pmb{x}\) se anula dando como resultado una ecuación en la que la única incógnita es \(\pmb{y}\). Al resolverla, conoceremos el valor numérico de  \(\pmb{y}\).</p>
+<p style="line-height: 1.5; color: #444; margin-top: 15px;">Posteriormente, sustituiremos este valor de  \(\pmb{y}\) en cualquiera de las ecuaciones originales lo que nos permitirá calcular el valor de \(\pmb{x}\).</p>
+<!-- PASOS DEL MÉTODO DE REDUCCIÓN ALINEADOS -->
+<p>\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 9000 \\ 15x &amp; + &amp; 6y &amp; = &amp; 126000 \end{array} \right. \implies \left\{ \begin{array}{rrcr} -15x &amp; - &amp; 15y &amp; = &amp; -135000 \\ 15x &amp; + &amp; 6y &amp; = &amp; 126000 \end{array} \right. \]</p>
+<p style="text-align: center; margin: 15px 0; color: #444;">Sumamos ambas filas en vertical para eliminar la \(x\):</p>
+<div style="background-color: #edfcfc; padding: 10px; border-radius: 6px; max-width: 280px; margin: 10px auto; font-family: monospace; font-size: 1.15rem; text-align: right; border-left: 4px solid #000dff; line-height: 1.4;">-15x - 15y = -135000<br />+ 15x +  6y =  126000<br /><hr style="border: 0; border-top: 2px solid #333; margin: 4px 0;" />       -9y =   -9000</div>
+<p>\[-9y = -9000 \implies y = 1000\]</p>
+<p style="text-align: center; margin: 15px 0; color: #444;">Sustituimos el valor de \(y\) en la primera ecuación para despejar la \(x\):</p>
+<p>\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; 1000 &amp; = &amp; 9000 \\ y &amp; = &amp; 1000 \end{array} \right. \implies \left\{ \begin{array}{rrcr} x &amp; = &amp; 8000 \\ y &amp; = &amp; 1000 \end{array} \right. \]</p>
+<p style="margin-top: 20px; color: #444;">El método que hemos aplicado no es otro que el <strong>método de reducción</strong>.</p>
+<!-- Caja interior azul para destacar la solución definitiva -->
+<div style="margin: 20px auto 10px auto; max-width: 420px; background-color: #edfcfc; border: 2px solid #000dff; padding: 12px; text-align: center; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); line-height: 1.5;"><strong>Solución del problema:</strong><br />Se han vendido \(\pmb{8000}\) entradas de adultos y \(\pmb{1000}\) entradas infantiles.</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mulgropr-4jxrfvhxw" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790613035486-nl6lcapq6" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790613035486-nl6lcapq6&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p style="line-height: 1.5; color: #444444; text-align: justify;">Uno de los motores que propulsa el lanzamiento del cohete <strong>Ariane 5</strong> es el <strong>Vulcain 2</strong>. Durante los 540 segundos que dura su funcionamiento consume las 155 toneladas de combustible que contiene y que están compuestas exclusivamente por oxígeno e hidrógeno líquido. Por cada tonelada de hidrógeno el Vulcain carga 5,2 toneladas de oxígeno.</p>
+<p style="line-height: 1.5; color: #444444; text-align: center;"><img src="../content/resources/ariane 5.png" width="15%" alt="" style="margin: 20px;" /><img src="../content/resources/vulcain2.png" width="20%" alt="" style="margin: 20px;" /></p>
+<p style="line-height: 1.5; color: #444444; margin-top: 15px; text-align: justify;">Plantea y resuelve un sistema de dos ecuaciones con dos incógnitas que nos permita saber la cantidad exacta de oxígeno e hidrógeno líquido que se almacenan en el motor.</p>
+<hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 35px 0;" />
+<p style="font-size: 1.15rem; color: #333; font-weight: 500; margin-bottom: 25px;">🔹 Intenta resolver mentalmente o en un papel cada fase del problema del cohete Ariane 5 y haz clic en las tarjetas para comprobar tus respuestas:</p>
+<!-- CONTENEDOR DE TARJETAS (PARTE 1) -->
+<div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; font-family: system-ui, -apple-system, sans-serif; margin-bottom: 20px;"><!-- TARJETA 1: VARIABLES -->
+<div onclick="this.classList.toggle('girada')" style="perspective: 1000px; width: 320px; height: 250px; cursor: pointer;">
+<div class="tarjeta-interna" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px;"><!-- Cara Delantera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #edfcfc; border: 2px solid #000dff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-size: 2rem; margin-bottom: 5px;">🤔</span> <span style="font-weight: bold; color: #000dff; font-size: 1.1rem; margin-bottom: 8px;">Paso 1: ¿Cuáles son las incógnitas?</span>
+<p style="margin: 0; font-size: 0.95rem; color: #444; line-height: 1.4;">¿Qué letras asignamos a los componentes del combustible del motor Vulcain 2?</p>
+</div>
+<!-- Cara Trasera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #ffffff; border: 2px solid #000dff; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-weight: bold; color: #000dff; font-size: 1.05rem; margin-bottom: 5px;">¡Identificación correcta!</span>
+<p style="margin: 0 0 8px 0; font-size: 0.9rem; color: #555; text-align: left; line-height: 1.4;">Definimos las dos letras que corresponden a cada tipo de combustible líquido:</p>
+<ul style="text-align: left; margin: 0; padding-left: 20px; font-size: 0.9rem; color: #333;">
+<li><strong>\(x\):</strong> Toneladas de hidrógeno líquido.</li>
+<li><strong>\(y\):</strong> Toneladas de oxígeno líquido.</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- TARJETA 2: EL SISTEMA -->
+<div onclick="this.classList.toggle('girada')" style="perspective: 1000px; width: 320px; height: 250px; cursor: pointer;">
+<div class="tarjeta-interna" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px;"><!-- Cara Delantera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #edfcfc; border: 2px solid #000dff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-size: 2rem; margin-bottom: 5px;">📝</span> <span style="font-weight: bold; color: #000dff; font-size: 1.1rem; margin-bottom: 8px;">Paso 2: ¿Cómo queda el sistema?</span>
+<p style="margin: 0; font-size: 0.95rem; color: #444; line-height: 1.4;">Sabiendo que hay 155 toneladas en total y que el oxígeno (\(y\)) es 5,2 veces el hidrógeno (\(x\)), ¿cuál es el sistema?</p>
+</div>
+<!-- Cara Trasera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #ffffff; border: 2px solid #000dff; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; box-sizing: border-box;"><span style="font-weight: bold; color: #000dff; font-size: 1.05rem; margin-bottom: 2px;">¡Planteamiento del Sistema!</span>
+<p style="margin: 0 0 2px 0; font-size: 0.8rem; color: #555; line-height: 1.3;">Una ecuación suma el total y la otra expresa la relación de proporcionalidad:</p>
+\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 155 \\ &amp; &amp; y &amp; = &amp; 5.2x \end{array} \right. \]</div>
+</div>
+</div>
+<!-- TARJETA 3: SOLUCIÓN -->
+<div onclick="this.classList.toggle('girada')" style="perspective: 1000px; width: 320px; height: 250px; cursor: pointer;">
+<div class="tarjeta-interna" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px;"><!-- Cara Delantera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #edfcfc; border: 2px solid #000dff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-size: 2rem; margin-bottom: 5px;">✔️</span> <span style="font-weight: bold; color: #000dff; font-size: 1.1rem; margin-bottom: 8px;">Paso 3: ¿Cuál es el resultado final?</span>
+<p style="margin: 0; font-size: 0.95rem; color: #444; line-height: 1.4;">Sustituyendo la \(y\) en la primera fila y dividiendo \(155 : 6.2\)... ¿qué valores exactos se obtienen?</p>
+</div>
+<!-- Cara Trasera -->
+<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; background-color: #ffffff; border: 2px solid #000dff; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box;"><span style="font-weight: bold; color: #000dff; font-size: 1.05rem; margin-bottom: 5px;">¡Solución final alcanzada!</span>
+<p style="margin: 0 0 5px 0; font-size: 0.85rem; color: #555; line-height: 1.3;">Tras resolver la sustitución matemática directa, obtenemos los valores definitivos del combustible:</p>
+<span style="font-size: 1.15rem; font-weight: bold; color: #000dff;"> \[x = 25 \quad \text{y} \quad y = 130\] </span>
+<p style="margin: 0; font-size: 0.8rem; color: #444;">Significa que el motor Vulcain carga <strong>25 t de hidrógeno</strong> y <strong>130 t de oxígeno</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- ESTILOS ANIMACIÓN -->
+<style>
+    .girada .tarjeta-interna {
+        transform: rotateY(180deg);
+    }
+</style><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p style="color: #444;">Si llamamos \(x\): <em>Toneladas de hidrógeno</em>, y \(y\): <em>Toneladas de oxígeno</em>, obtenemos el siguiente sistema de ecuaciones perfectamente alineado por columnas:</p>
+<!-- SISTEMA PLANTEADO ALINEADO -->
+<p>\[ \left\{ \begin{array}{rrcr} x &amp; + &amp; y &amp; = &amp; 155 \\ &amp; &amp; y &amp; = &amp; 5.2x \end{array} \right. \]</p>
+<p style="margin-top: 20px; font-weight: 600; color: #000dff;">🟢 Paso 1: Aplicar el método de sustitución</p>
+<p>Como la incógnita \(y\) ya se encuentra completamente aislada y despejada en la segunda ecuación (\(y = 5.2x\)), podemos <strong>sustituir</strong> directamente su expresión en el lugar donde está la \(y\) en la primera ecuación:</p>
+<p>\[x + 5.2x = 155\]</p>
+<p style="margin-top: 25px; font-weight: 600; color: #000dff;">🟢 Paso 2: Resolver la ecuación lineal resultante</p>
+<p>Sumamos los términos semejantes que contienen la incógnita \(x\) (teniendo en cuenta que la primera \(x\) equivale a \(1x\)) y despejamos su valor:</p>
+<p>\[ \begin{aligned} 6.2x &amp;= 155 \\ x &amp;= \dfrac{155}{6.2} \implies x = 25 \end{aligned} \]</p>
+<p style="margin-top: 25px; font-weight: 600; color: #000dff;">🟢 Paso 3: Calcular el valor de la segunda incógnita</p>
+<p>Conociendo ya que \(x = 25\), volvemos a la expresión donde estaba despejada la letra \(y\) para calcular de forma directa su valor numérico:</p>
+<p>\[y = 5.2 \cdot 25 \implies y = 130\]</p>
+<!-- Caja interior azul para destacar la solución definitiva -->
+<div style="margin: 25px auto; max-width: 420px; background-color: #edfcfc; border: 2px solid #000dff; padding: 12px; text-align: center; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); line-height: 1.5;"><strong>Solución del problema:</strong><br />Se almacenan \(\pmb{25}\) toneladas de hidrógeno y \(\pmb{130}\) toneladas de oxígeno.</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mul32ayj-qmfpory3h" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/objectives.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Para saber más</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mul32ayj-c858ibynq" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mul32ayj-c858ibynq&quot;}">
+<p>Para que puedas practicar los métodos de resolución anteriores te proponemos que visites el siguiente enlace del proyecto Descartes. </p>
+<p><a href="https://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_sistemas_ecuaciones-JS-apli/index.htm" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="../content/resources/Imagen-Sistemas.png" alt="Sistemas ecuaciones" title="Sistemas ecuaciones" width="458" height="270" /></a></p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/12-resolucion-grafica-de-un-sistema-de-dos-ecuacio.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/2-sistemas-de-tres-ecuaciones-con-tres-incognitas.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
